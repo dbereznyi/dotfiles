@@ -21,7 +21,7 @@ alias ls="ls --color -F"
 alias ll="ls --color -lh"
 alias spm="sudo pacman"
 
-PROMPT='%F{green}%n%f@%U%F{cyan}%m%f%u> '
+PROMPT='%F{green}%n%f@%U%F{cyan}%m%f%u%(!.#.>) '
 RPROMPT='%F{yellow}%/%f'
 
 autoload -Uz vcs_info
