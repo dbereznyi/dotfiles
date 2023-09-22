@@ -322,6 +322,8 @@ autocmd FileType javascript setlocal shiftwidth=2 softtabstop=2 expandtab
 
 set ambiwidth="single"
 
+set clipboard+=unnamedplus
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
