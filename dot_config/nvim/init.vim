@@ -126,7 +126,7 @@ augroup myHighlighting
 augroup END
 
 try
-    colorscheme slate
+    colorscheme evening
 catch
 endtry
 
@@ -150,7 +150,7 @@ set ffs=unix,dos,mac
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Turn backup off, since most stuff is in SVN, git etc. anyway...
+
 set nobackup
 set nowb
 set noswapfile
