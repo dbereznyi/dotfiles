@@ -22,7 +22,7 @@ alias ll="ls --color -lh"
 alias spm="sudo pacman"
 
 PROMPT='%F{green}%n%f@%U%F{cyan}%m%f%u> '
-RPROMPT='[%F{yellow}%?%f]'
+RPROMPT='%F{yellow}%/%f'
 
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git hg
@@ -39,3 +39,7 @@ export BROWSER="brave"
 export EDITOR=/usr/bin/nvim
 
 source /home/dber/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+if [[ -z "$TMUX" ]]; then
+    tmux
+fi
