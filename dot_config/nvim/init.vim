@@ -319,9 +319,11 @@ let filetype_rgbds = "rgbds"
 let g:zig_fmt_autosave = 0
 
 autocmd FileType javascript setlocal shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType typescript setlocal shiftwidth=2 softtabstop=2 expandtab
 
 set ambiwidth="single"
 
+" yank to system clipboard
 set clipboard+=unnamedplus
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -388,7 +390,7 @@ call plug#end()
 
 " Telescope
 
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>ff <cmd>Telescope find_files layout_strategy=vertical layout_config={width=0.8}<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep layout_strategy=vertical layout_config={width=0.8}<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
