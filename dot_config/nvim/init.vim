@@ -114,6 +114,7 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
+" Enable transparent background
 augroup myHighlighting
     autocmd!
     autocmd Colorscheme * highlight EndOfBuffer ctermbg=none guibg=none
@@ -252,6 +253,10 @@ set laststatus=2
 " Format the status line
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
+" Status line and tab bar colors
+hi StatusLine ctermbg=53 ctermfg=255
+hi TabLine ctermbg=240 ctermfg=255
+hi TabLineSel ctermbg=53 ctermfg=255
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
