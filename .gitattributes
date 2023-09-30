@@ -1,0 +1,2 @@
+dot_thunderbird/gnppe6zt.default-release/ImapMail/mail.giwn-1.xyz/executable_INBOX filter=lfs diff=lfs merge=lfs -text
+dot_thunderbird/gnppe6zt.default-release/ImapMail/mail.giwn.xyz/executable_INBOX filter=lfs diff=lfs merge=lfs -text
