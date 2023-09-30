@@ -23,7 +23,7 @@ alias spm="sudo pacman"
 alias gs="git status"
 
 PROMPT='%F{green}%n%f@%U%F{cyan}%m%f%u%(!.#.>) '
-RPROMPT='%F{yellow}%/%f'
+RPROMPT='%F{219}%/%f'
 
 autoload -Uz vcs_info
 zstyle ':vcs_info:*' enable git hg
@@ -36,7 +36,7 @@ export QT_IM_MODULE=fcitx
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 eval "$(direnv hook zsh)"
-export BROWSER="chromium"
+export BROWSER="brave"
 export EDITOR=/usr/bin/nvim
 
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
