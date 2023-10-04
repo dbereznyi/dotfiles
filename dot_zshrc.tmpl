@@ -34,6 +34,8 @@ export EDITOR=/usr/bin/nvim
 
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+bindkey "^[[3~" delete-char # make delete key actually delete a char
+
 if [[ -z "$TMUX" ]]; then
     tmux
 fi
