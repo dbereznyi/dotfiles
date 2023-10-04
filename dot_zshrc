@@ -36,7 +36,7 @@ export QT_IM_MODULE=fcitx
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 eval "$(direnv hook zsh)"
-export BROWSER="brave"
+export BROWSER={{ .browser | quote }}
 export EDITOR=/usr/bin/nvim
 
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
