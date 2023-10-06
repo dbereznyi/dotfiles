@@ -399,3 +399,5 @@ nnoremap <leader>ff <cmd>Telescope find_files layout_strategy=vertical layout_co
 nnoremap <leader>fg <cmd>Telescope live_grep layout_strategy=vertical layout_config={width=0.8}<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+hi TelescopeBorder ctermfg=123
