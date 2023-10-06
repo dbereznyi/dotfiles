@@ -258,6 +258,7 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 
 " Status line and tab bar colors
 hi StatusLine ctermbg=53 ctermfg=255
+hi StatusLineNC ctermbg=8 ctermfg=255
 hi TabLine ctermbg=240 ctermfg=255
 hi TabLineSel ctermbg=53 ctermfg=255
 
