@@ -129,6 +129,19 @@ augroup myHighlighting
     autocmd Colorscheme * highlight TabLineFill ctermbg=none guibg=none
 augroup END
 
+augroup highlightTmplFile
+    autocmd!   
+    autocmd BufRead *.tmpl call g:DetermineExtOfTmpl()
+    function! g:DetermineExtOfTmpl()
+        let fname_without_tmpl = expand('%:t:r')
+        if fname_without_tmpl == "dot_zshrc"
+            let &filetype="zsh"
+        else
+            let &filetype=expand('%:t:r:e')
+        endif
+    endfunction
+augroup END
+
 try
     colorscheme evening
 catch
