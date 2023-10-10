@@ -126,7 +126,6 @@ augroup myHighlighting
     autocmd Colorscheme * highlight NonText ctermbg=none guibg=none
     autocmd Colorscheme * highlight Normal ctermbg=none guibg=none
     autocmd Colorscheme * highlight NormalNC ctermbg=none guibg=none
-    autocmd Colorscheme * highlight TabLineFill ctermbg=none guibg=none
 augroup END
 
 augroup highlightTmplFile
@@ -274,6 +273,7 @@ hi StatusLine ctermbg=53 ctermfg=255
 hi StatusLineNC ctermbg=8 ctermfg=255
 hi TabLine ctermbg=240 ctermfg=255
 hi TabLineSel ctermbg=53 ctermfg=255
+hi TabLineFill cterm=bold ctermfg=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
