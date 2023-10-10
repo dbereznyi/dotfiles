@@ -39,7 +39,6 @@
       </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
-      <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="override" type="bool" value="true"/>
@@ -47,16 +46,16 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;m" type="string" value="xfce4-taskmanager"/>
       <property name="XF86Calculator" type="string" value="galculator"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal --drop-down"/>
-      <property name="Print" type="string" value="xfce4-screenshooter -fd 1"/>
       <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -wd 1"/>
-      <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Super&gt;Return" type="string" value="xfce4-terminal"/>
-      <property name="&lt;Super&gt;w" type="string" value="brave"/>
+      <property name="&lt;Super&gt;b" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Super&gt;a" type="string" value="xfce4-appfinder --collapsed">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="&lt;Super&gt;s" type="string" value="xfce4-screenshooter -r"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="xfce4-screenshooter -fd 1"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -163,7 +162,6 @@
       <property name="&lt;Control&gt;F11" type="string" value="workspace_11_key"/>
       <property name="&lt;Control&gt;F12" type="string" value="workspace_12_key"/>
       <property name="&lt;Control&gt;F9" type="string" value="workspace_9_key"/>
-      <property name="&lt;Alt&gt;F10" type="string" value="maximize_window_key"/>
       <property name="&lt;Alt&gt;F11" type="string" value="fullscreen_key"/>
       <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Up" type="string" value="up_workspace_key"/>
@@ -215,6 +213,7 @@
       <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_workspace_key"/>
       <property name="&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_workspace_key"/>
       <property name="override" type="bool" value="true"/>
+      <property name="&lt;Alt&gt;f" type="string" value="maximize_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">
