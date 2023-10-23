@@ -77,6 +77,10 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 	add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
 fi
 
+{{- if eq .chezmoi.hostname "dber-wk" }}
+source /usr/share/nvm/init-nvm.sh
+{{- end }}
+
 if [[ -z "$TMUX" ]]; then
     tmux
 fi
