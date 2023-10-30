@@ -1,8 +1,8 @@
 Host personal
     Hostname github.com
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_rsa_personal
     IdentitiesOnly yes
 Host work
     Hostname github.com
-    IdentityFile ~/.ssh/id_ed25519
+    IdentityFile ~/.ssh/id_rsa
     IdentitiesOnly yes
