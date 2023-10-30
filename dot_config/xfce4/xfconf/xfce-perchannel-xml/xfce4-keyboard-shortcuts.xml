@@ -56,7 +56,7 @@
       <property name="&lt;Super&gt;m" type="string" value="exo-open --launch MailReader"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="xfce4-screenshooter -fd 1"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;s" type="string" value="xfce4-screenshooter -wd 1"/>
-      <property name="&lt;Super&gt;p" type="string" value="peek"/>
+      <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
