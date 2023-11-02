@@ -28,8 +28,6 @@ zstyle ':vcs_info:git*' formats "%{${fg[cyan]}%}[%{${fg[green]}%}%s%{${fg[cyan]}
 export GTK_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export QT_IM_MODULE=fcitx
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
 eval "$(direnv hook zsh)"
 export BROWSER={{ .browser | quote }}
 export EDITOR=/usr/bin/nvim
