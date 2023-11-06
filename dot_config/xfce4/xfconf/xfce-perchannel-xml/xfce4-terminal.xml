@@ -31,4 +31,5 @@
   <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
   <property name="misc-right-click-action" type="string" value="TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU"/>
   <property name="scrolling-lines" type="uint" value="999999"/>
+  <property name="font-name" type="string" value="Monospace 11"/>
 </channel>
