@@ -142,7 +142,7 @@ augroup highlightTmplFile
 augroup END
 
 try
-    colorscheme evening
+    colorscheme slate
 catch
 endtry
 
