@@ -14,8 +14,8 @@ export LS_COLORS
 alias ls="ls --color -F"
 alias ll="ls --color -lh"
 alias spm="sudo pacman"
-alias gs="git status"
 alias vi="nvim"
+alias "sudo vi"="nvim"
 
 PROMPT='%F{128}%n%f@%U%F{123}%m%f%u%(!.#.>) '
 RPROMPT='%F{219}%/%f'
@@ -29,7 +29,7 @@ export GTK_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export QT_IM_MODULE=fcitx
 eval "$(direnv hook zsh)"
-export BROWSER={{ .browser | quote }}
+export BROWSER={{ .browser }}
 export EDITOR=/usr/bin/nvim
 
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
