@@ -2,7 +2,7 @@
 
 <channel name="xfce4-terminal" version="1.0">
   <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
-  <property name="background-darkness" type="double" value="0.75"/>
+  <property name="background-darkness" type="double" value="0.77000000000000002"/>
   <property name="misc-always-show-tabs" type="bool" value="false"/>
   <property name="misc-bell" type="bool" value="false"/>
   <property name="misc-bell-urgent" type="bool" value="false"/>
@@ -32,4 +32,5 @@
   <property name="misc-right-click-action" type="string" value="TERMINAL_RIGHT_CLICK_ACTION_CONTEXT_MENU"/>
   <property name="scrolling-lines" type="uint" value="999999"/>
   <property name="font-name" type="string" value="Monospace 11"/>
+  <property name="color-background" type="string" value="#24241f1f3131"/>
 </channel>
