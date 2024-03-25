@@ -35,7 +35,7 @@ require("mason").setup()
 
 require("kanagawa").setup({
   keywordStyle = { italic = false },
-  transparent = true,
+  -- transparent = true,
   overrides = function(colors)
     return {
       LineNr = { bg = colors.palette.sumiInk0 },
