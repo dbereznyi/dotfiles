@@ -41,7 +41,7 @@ require("kanagawa").setup({
       LineNr = { bg = colors.palette.sumiInk0 },
       StatusLine = { bg = colors.palette.sumiInk0, fg = colors.palette.dragonWhite },
       StatusLineNC = { bg = colors.palette.sumiInk1, fg = colors.palette.dragonWhite },
-      TabLine = { bg = colors.palette.dragonGray2, fg = colors.palette.dragonWhite },
+      TabLine = { bg = colors.palette.dragonBlack1, fg = colors.palette.lotusWhite1 },
       TabLineSel = { bg = colors.palette.sumiInk0, fg = colors.palette.dragonWhite },
       TabLineFill = { bg = "none" },
     }
