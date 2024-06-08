@@ -24,9 +24,9 @@ zstyle ':vcs_info:*' enable git hg
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:git*' formats "%{${fg[cyan]}%}[%{${fg[green]}%}%s%{${fg[cyan]}%}][%{${fg[blue]}%}%r/%S%%{${fg[cyan]}%}][%{${fg[blue]}%}%b%{${fg[yellow]}%}%m%u%c%{${fg[cyan]}%}]%{$reset_color%}"
 
-export GTK_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-export QT_IM_MODULE=fcitx
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
 eval "$(direnv hook zsh)"
 export BROWSER={{ .browser }}
 export EDITOR=/usr/bin/nvim
