@@ -10,6 +10,7 @@ sudo pacman -S \
     fcitx5-im \
     gimp \
     htop \
+    mpv \
     neovim \
     noto-fonts \
     noto-fonts-cjk \
