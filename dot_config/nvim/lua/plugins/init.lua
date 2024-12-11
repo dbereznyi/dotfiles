@@ -48,6 +48,12 @@ require("kanagawa").setup({
   end
 })
 
+require("typescript-tools").setup({
+    settings = {
+        complete_function_calls = true,
+    }
+})
+
 -- Colorscheme
 
 vim.cmd("colorscheme kanagawa")
@@ -83,4 +89,5 @@ vim.cmd([[
   let g:neoformat_try_node_exe = 1
   autocmd BufWritePre *.js Neoformat
   autocmd BufWritePre *.ts Neoformat
+  autocmd BufWritePre *.tsx Neoformat
 ]])
