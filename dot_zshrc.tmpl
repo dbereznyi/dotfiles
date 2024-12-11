@@ -81,3 +81,13 @@ source /usr/share/nvm/init-nvm.sh
 if [[ -z "$TMUX" ]]; then
     tmux
 fi
+
+# bun completions
+[ -s "/home/dber/.bun/_bun" ] && source "/home/dber/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# gcloud
+export CLOUDSDK_PYTHON=$(which python3.11)
