@@ -29,7 +29,7 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 eval "$(direnv hook zsh)"
 export BROWSER={{ .browser }}
-export EDITOR=/usr/bin/nvim
+export EDITOR=nvim
 
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -94,3 +94,8 @@ export CLOUDSDK_PYTHON=$(which python3.11)
 
 # go
 export PATH="$HOME/go/bin:$PATH"
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"

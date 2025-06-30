@@ -70,6 +70,7 @@ vim.opt.tm = 500
 
 -- Enable line numbering
 vim.opt.number = true
+vim.opt.relativenumber = true
 
 ------------------------------------------------------------------------------------
 -- => Colors and Fonts
