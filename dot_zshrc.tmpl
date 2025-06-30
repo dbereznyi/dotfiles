@@ -78,10 +78,6 @@ fi
 source /usr/share/nvm/init-nvm.sh
 {{- end }}
 
-if [[ -z "$TMUX" ]]; then
-    tmux
-fi
-
 # bun completions
 [ -s "/home/dber/.bun/_bun" ] && source "/home/dber/.bun/_bun"
 
@@ -105,3 +101,8 @@ if [ -f '/Users/dbereznyi/Documents/google-cloud-sdk/path.zsh.inc' ]; then . '/U
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/dbereznyi/Documents/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/dbereznyi/Documents/google-cloud-sdk/completion.zsh.inc'; fi
+
+if [[ -z "$TMUX" ]]; then
+    tmux
+fi
+
