@@ -81,6 +81,7 @@ vim.cmd("hi TelescopeBorder ctermfg=123")
 
 vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, {})
 vim.keymap.set("n", "<leader>r", vim.lsp.buf.references, {})
+vim.keymap.set("n", "<leader>e", vim.lsp.buf.rename, {})
 vim.keymap.set("n", "<leader>j", vim.lsp.buf.implementation, {})
 
 
